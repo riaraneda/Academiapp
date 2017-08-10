@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.innobiz.academiapp.InscriptionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/curso1Btn"
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Curso 1" />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/inscriptionTv"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:textSize="30sp"
+            android:layout_height="wrap_content"
+            android:text="Inscríbete en este curso!"/>
+
+        <EditText
+            android:id="@+id/phone"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Ingresa tu teléfono (Ej. +569 1111 1111)" />
+
+        <CheckBox
+            android:id="@+id/promoCb"
+            android:text="Recibir avisos de nuevos cursos por email"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/sendBtn"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Enviar" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
